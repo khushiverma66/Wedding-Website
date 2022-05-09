@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Venues</title>
+    <link rel="icon" href="Media/events1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #banner{
+            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(144, 176, 235, 0.7) 
+    ),url(Media/hi.jpg);
+   
+    background-size: 1600px;
+
+    height: 100vh;
+    position: sticky;
+        }
+        #sidenav{
+    width: 250px;
+    height: 100vh;
+    position:absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(151, 177, 226, 0.781);
+    }
+    nav ul li {
+    list-style: none;
+    margin: 50px 20px ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: pink;
+}
+body{
+    background: linear-gradient(rgba(243, 238, 238, 0.656), rgba(248, 248, 248, 0.656) 
+    ),url(Media/patterns.jpg);
+}
+.ent{
+    display: flex;
+}
+.c13{
+    display: flex;
+    background-color:rgb(233, 233, 233);
+}
+.last{
+    color: black;
+    text-decoration: none;
+
+}
+.last:hover{
+    text-decoration: underline;
+}
+.copyright{
+    background-color: #009688;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.change{
+    box-shadow: 10px 10px 8px black;
+    cursor: pointer;
+}
+/* image slider */
+.container{
+    width: 1550px;
+    overflow: hidden;
+}
+.slider{
+    position: relative;
+    width: 15210px;
+    animation-name: slideranimation;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+
+.imgslider img{
+    float: left;
+    width: 1550px;
+    height: 500px;
+}
+@keyframes slideranimation {
+    0% {
+        left: 0px;
+    }
+    12.5%{
+        left: -1500px;
+    }
+    25% {
+        left: -300px;
+    }
+    37.5%{
+        left: -4500px;
+    }
+    50%{
+        left: -6000px;
+    }
+    62.5%{
+        left: -7500px;
+    }
+    75%{
+        left: -9000px;
+    }
+    87.5%{
+        left: -10500px;
+    }
+}
+.hjhj{
+    display: flex;
+}
+.hhh{
+    animation-name: testimonial;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    width: 300px;
+    height: 300px;
+}
+@keyframes testimonial {
+    from{background-image: url(Media/testimonial1.png); background-size: 220px; background-repeat: no-repeat;}
+    to{background-image: url(Media/testimonial2.png); background-size: 220px; background-repeat: no-repeat;}
+}
+#manubtn{
+    width: 50px;
+    height: 50px;
+    background: rgba(151, 177, 226, 0.781);
+    text-align: center;
+    position:fixed;
+    right: 30px;
+    top: 40px;
+    border-radius: 3px;
+    z-index: 8;
+    cursor: pointer;
+}
+#manubtn img{
+    width: 20px;
+    margin-top: 15px;
+    
+}
+.phonenumber{
+    background: rgba(151, 177, 226, 0.781);
+    width: 140px;
+    height: 81x;
+    border-radius: 10px;
+    position:fixed;
+    top: 48px;
+    left: 35px;
+    padding: 3px;
+    color: white;
+    z-index: 8;
+}
+.phonenumber:hover{
+    color:black;
+    cursor: pointer;
+}
+.fa-facebook:hover{
+    color: #009688;
+}
+.fa-instagram:hover{
+    color: #009688;
+}
+.fa-pinterest-p:hover{
+    color: #009688;
+}
+.fa-twitter:hover{
+    color: #009688;
+}
+.fa-youtube-play:hover{
+    color: #009688;
+}
+    </style>
+</head>
+<body>
+    <marquee behavior="" direction="right" style="background-color:rgba(151, 177, 226, 0.981); position: fixed; z-index: 8;">"Over 20 years of Destination wedding & Event planning experience, more than 500 happy couples around the world, 600+overseas events and still counting" </marquee> <br>
+    <section id="banner">
+        <div class="ph">
+            <div style="background: rgba(151, 177, 226, 0.781); border-radius: 50%; width: 30px; height: 30px; top: 46px; left: 5px; position: fixed;"><img src="Media/phonelogo.png" alt="" width="30px" height="30px"></div>
+        <div class="phonenumber">+91-8567234510</div>
+        <div style=" top: 667px; left: -30px; position: fixed; z-index: 8; cursor: pointer;;"><a href="#" ></a><img src="Media/chatwithus2.png" alt="" width="250px" height="95px"></div>
+        </div>
+<center><h1 style="font-size: 100px; color: white; font-family: 'The Nautigal', cursive;">Wedding Venues</h1></center>
+<div id="sidenav">
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutus(mainproject).html" target="__blank">ABOUT US</a></li>
+            <li><a href="Careerwithus.html">CAREER WITH US </a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="invites.html" class="wedd2">INVITES</a></li>
+            <li><a href="ContactUs.html">REACH US</a></li>
+        </ul>
+    </nav>
+</div>
+<div id="manubtn">
+    <img src="Media/menu.png" alt="not found" id="manu">
+</div>
+    </section>
+    <br>
+    <div class="ent">
+    <div> <img src="Media/we.jpg" alt="" width="540px" height="400px" style="margin-left: 120px ; display: flex; margin-top: 40px;box-shadow: 10px 10px 8px black;
+        cursor: pointer;"> </div>
+    <div style="margin-left: 400px;"><div style="color: white; background-color: #009688; width: 260px; height: 40px; font-size: 20px; padding-top: 10px; padding-left: 70px;font-size: 30px; border-radius: 10px;" class="change">Wedding Bells </div>
+     <div style="font-size: 20px; margin-top: 20px; border: 2px solid #009688;padding-left: 10px; color: black; border-radius: 10px;margin-right: 140px; height: 40px; width: 260px; padding-top: 10px; margin-left: 30px;" class="change">Complete Wedding Planning</div>
+     <div style="font-size: 20px; margin-top: 20px; border: 2px solid #009688;padding-left: 10px; color: black; border-radius: 10px;margin-right: 140px; height: 40px; width: 260px; padding-top: 10px; margin-left: 30px;" class="change">Partial Wedding Planning</div>
+     <div style="font-size: 20px; margin-top: 20px; border: 2px solid #009688;padding-left: 10px; color: black; border-radius: 10px;margin-right: 140px; height: 40px; width: 260px; padding-top: 10px; margin-left: 30px;" class="change">Luxury Wedding Planning</div>
+     <div style="font-size: 20px; margin-top: 20px; border: 2px solid #009688;padding-left: 10px; color: black; border-radius: 10px;margin-right: 140px; height: 40px; width: 260px; padding-top: 10px; margin-left: 30px;" class="change">Wedding Organizers</div>
+     <div style="font-size: 20px; margin-top: 20px; border: 2px solid #009688;padding-left: 10px; color: black; border-radius: 10px;margin-right: 140px; height: 40px; width: 260px; padding-top: 10px; margin-left: 30px;" class="change">Wedding Photographers</div>
+     <div style="font-size: 20px; margin-top: 20px; border: 2px solid #009688;padding-left: 10px; color: black; border-radius: 10px;margin-right: 140px; height: 40px; width: 260px; padding-top: 10px; margin-left: 30px;" class="change">Destination Wedding Planners</div>
+    </div></div>
+    </div>
+    <div class="hjhj">
+    <div  style="margin-left: 120px ;  font-size: 20px; margin-bottom: 100px;" >
+        The Wedding is a once-in-lifetime event and everyone wants a ravishing venue for that moment. <br> Selecting and finalizing the wedding venue is one of the first decisions the couples & their families <br> need to take while they start wedding related processes. They need to decide where to hold their <br> wedding as well as reception, and it remains at the top of their priority list. <br> <br>
+
+As a smart wedding designer firm, Wedding Bells & Events offers a magnificent list of <br> wedding venues where your wedding event can be organized. You just have to decide on the <br> type and size of venue you would like to go with. Whether you choose to organize your wedding in <br> your own garden, or in a palace or at the beach or any other natural venue, with our magnificent <br> wedding planning skills we will make it a ravishing event for you as well as for the guests. <br> <br>
+
+Our venue management techniques are inspired by the current trendy styles. Our unique venue <br> management styles include vintage, antique, classic, rustic and industrial types. The Wedding Bells & <br> Events will create the perfect atmosphere for your wedding event. <br>
+    </div>
+    <div style="margin-left: 200px; margin-top: 50px;" ><span style="color: #009688; font-size: 30px; font-weight: bolder; margin-left: 30px;">Testimonials</span> <br> <br> <div style="border:3px solid black; width: 220px; height: 240px; margin-right: 100p" class="hhh" ></div></div>
+    </div>
+    <div style="margin-left: 120px; margin-bottom: 100px;"><H1 style="color: #009688;">VENUE MANAGEMENT</H1>
+    <br>
+    Our team of dedicated wedding planners will work with you to smoothly execute a successful wedding event with following elements of event management:
+    <br>
+    <ul type="none">
+        <li> 👉 Stafing</li> <br>
+        <li> 👉 Space Planning</li>  <br>
+        <li> 👉 Decoration</li> <br>
+        <li> 👉 Event Execution</li> <br>
+        <li> 👉 Food & Beverage Services</li> <br>
+        <li> 👉 Supportive Operations management</li>  
+    </ul>
+    </div>
+    
+    <center><h1 style="color: #009688;font-size: 40px;"><u>Our Photo Gallery</u></h1></center> <br>
+    <hr style="border: 2px solid black;">
+    <div class="container">
+        <div class="slider" style="margin-left: 200px;">
+            <div class="imgslider" >
+                <img src="Media/slider1.jpeg">
+                <img src="Media/slider2.jpeg">
+                <img src="Media/slider3.jpeg">
+                <img src="Media/slider4.jpeg">
+                <img src="Media/slider5.jpeg">
+                <img src="Media/wedd2.jpg">
+                <img src="Media/wedding1.jpg">
+                <img src="Media/wedd3.jpg">
+            </div>
+        </div>
+    </div><hr style="border: 2px solid black;">
+    <br>
+        <section class="contactus">
+            <div class="c13">
+                <div class="contactus1" style="margin-left: 300px;"> <h2>WEDDING BELLS AND EVENTS</h2> <br> Wedding Bells and Events Pvt Ltd has dynamic <br> team of vibrant personalities, a group of experienced <br> wedding designers and event organisers in Noida  and <br> Gurgaon  who comprise the knowledge and know-how <br> to provide you unforgettable moments through our <br> myriad of services that need to craft your alluring <br> event. </div>
+                <div class="contactus1" style="margin-left: 150px;"><h2>LINKS</h2> <br> <a href="index.html" class="last">Home</a> <br> <a href="aboutus(mainproject).html" class="last">About Us</a> <br> <a href="Careerwithus.html" class="last">Career With Us</a> <br> <a href="Blog.html" class="last">Blog</a> <br> <a href="ContactUs.html" class="last">Reach Us</a> <br> <a href="Gurgaon.html" class="last">Gurgaon</a> </div>
+                <div class="contactus1" style="margin-left: 150px;"><h2>Contact Us </h2><br>Sector 55 <br>Near D Block Market,Noida <br> <a href="#" class="last">Email : info@weddingbells.in</a><br> <br>
+                    <a href="#" style="color:blue; text-decoration: none;"><i class="fa fa-facebook" aria-hidden="true" style="transition: all 0.5s;"></i>&nbsp;</a>
+                    <a href="#" style="color:rgb(245, 34, 104);text-decoration: none;"><i class="fa fa-instagram" aria-hidden="true" style="transition: all 0.5s;"></i>&nbsp;</a>
+                    <a href="#" style="color:red; text-decoration: none;"><i class="fa fa-youtube-play" aria-hidden="true" style="transition: all 0.5s;"></i>&nbsp;</a>
+                    <a href="#" style="color: green; text-decoration: none;"><i class="fa fa-pinterest-p" aria-hidden="true" style="transition: all 0.5s;"></i>&nbsp;</a>
+                    <a href="#" style="color: rgb(68, 195, 245); text-decoration: none;"><i class="fa fa-twitter" aria-hidden="true" style="transition: all 0.5s;"></i></a>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <center><h1>MAP LOCATION</h1>
+            <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.9282177568257!2d77.34681111503558!3d28.601930182429893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce511eb13d7dd%3A0x30966d40cda320c9!2sD%20Block%20Park%201%2C%20Block%20D%2C%20Sector%2055%2C%20Noida%2C%20Uttar%20Pradesh%20201307!5e0!3m2!1sen!2sin!4v1639679350336!5m2!1sen!2sin" width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></center>
+        <br>
+        <div class="copyright">Copyright© Wedding Bells and Events 2018, All right reserved. | Privacy Policy</div>
+       </div>
+       <script>
+        var menubtn= document.getElementById("manubtn")
+        var sidenav= document.getElementById("sidenav")
+        var menu= document.getElementById("manu")
+    
+        sidenav.style.right="-250px";
+    
+        menubtn.onclick=function(){
+            if(sidenav.style.right=="-250px"){
+             sidenav.style.right="0";
+             menu.src="Media/close.png";
+            }
+            else{
+             sidenav.style.right="-250px";
+             menu.src="Media/menu.png";
+            }
+        }
+    
+    </script>
+</body>
+</html>

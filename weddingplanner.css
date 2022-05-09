@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgba(243, 238, 238, 0.656), rgba(248, 248, 248, 0.656) 
+    ),url(Media/patterns.jpg);
+}
+.phonenumber{
+    background: rgba(151, 177, 226, 0.781);
+    width: 140px;
+    height: 81x;
+    border-radius: 10px;
+    position:fixed;
+    top: 48px;
+    left: 35px;
+    padding: 3px;
+    color: white;
+    z-index: 8;
+}
+.phonenumber:hover{
+    color:black;
+    cursor: pointer;
+}
+#banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(151, 177, 226, 0.781) 
+    ),url(Media/kohli.jpg);
+   
+    background-size: 1550px;
+
+    height: 100vh;
+}
+.lo{
+    cursor: pointer;
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+.banner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+}
+.banner-text h1{
+    font-size: 130px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+}
+.banner-btn{
+    margin: 70px auto 0;
+}
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin:0 10px;
+    padding: 12px 0;
+    color: #fff;
+    border: .5px solid #fff;
+    position: relative;
+    z-index:1;
+    transition:  0.5s;
+    
+}
+.banner-btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#fff;
+    z-index:-1;
+    transition: 0.5s;
+}
+.banner-btn a:hover span{
+    width: 100%;
+}
+.banner-btn a:hover {
+    color: black;
+}
+#sidenav{
+    width: 250px;
+    height: 100vh;
+    position:fixed;
+    right: -250px;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(151, 177, 226, 0.781);
+    transition: 0.5s;
+}
+nav ul li {
+    list-style: none;
+    margin: 50px 20px ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: pink;
+}
+.number{
+    background-color: #009688;
+    width: 15px;
+    height: 7px;
+    position:sticky;
+}
+.blue{
+    color: #009688;
+}
+.container1{
+    display: flex;
+    margin:2%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 5;
+}
+
+.first{
+    background-color: rgba(4, 226, 215, 0.781);
+    flex-basis: 22%;
+    border-radius: 10px;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+}
+.r{
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+}
+.first:hover{
+    box-shadow:0 0 20px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.timepass{
+    font-size: 30px;
+}
+.e{
+    margin-top: 5%;
+}
+.k{
+    font-style:italic;
+    font-size: 50px;
+    color: #009688;
+}
+.container2,.container3,.container4{
+    display: flex;
+    margin:2%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 5;
+}
+
+.pehla{
+    background-color:white;
+    flex-basis: 22%;
+    border-radius: 8px;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    border:1px solid black;
+    overflow: auto;
+}
+.pehla:hover{
+    box-shadow:0 0 20px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.container5{
+    display: flex;
+    flex-wrap: wrap;
+}
+.destination{
+    border: 1px solid #009688;
+    border-radius: 5px;
+    width: 100px;
+}
+.w{
+    text-align: center;
+}
+.img{
+    box-align: center;
+}
+.destination:hover{
+    box-shadow:0 0 20px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+}
+.ok{
+    border-radius: 10px;
+    border: 0px solid white;
+    margin: 17px;
+
+}
+.c6{
+    display: flex;
+
+}
+.ok:hover{
+    box-shadow:0 0 50px 0px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+.campus{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.campus-col{
+    flex-basis: 23%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.campus-col img{
+    height: 100%;
+}
+.layer1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.layer1:hover{
+  background: rgba(0, 0, 0, 0.6);
+  cursor: pointer;   
+}
+.layer1 h3{
+    width: 90%;
+    font-weight: 700;
+    font-size: 18px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.7s;
+}
+.layer1:hover h3{
+    bottom: 50%;
+    opacity: 1;
+    cursor: pointer;
+}
+.row{
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.c8{
+    display: flex;
+    flex-wrap: wrap;
+}
+.a{
+    display: flex;
+    margin:2%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 5;
+    border-radius: 5px;
+
+}
+.ad{
+    background-color: #009688;
+    color: white;
+}
+.ad1{
+    border: 3px solid white;
+    width: 120px;
+    border-radius: 4px;
+}
+.ad1:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.c10{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wedd{
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.wedd:hover{
+    background: rgba(0, 0, 0, 15);
+    cursor: pointer; 
+}
+.c11{
+    display: flex;
+}
+.ankit:hover{
+    box-shadow:0 0 50px 0px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+.ankit1:hover{
+    cursor: pointer;
+}
+.c12,.c13{
+    display: flex;
+}
+.roshan:hover{
+    box-shadow:0 0 50px 0px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+.roshan1:hover{
+    cursor: pointer;
+}
+.contactus{
+    background-color: rgb(233, 233, 233);
+}
+.last{
+    color: black;
+    text-decoration: none;
+}
+.last:hover{
+    text-decoration: underline;
+}
+.contactus1 a{
+    text-decoration: none;
+}
+.fa-facebook{
+    color: rgb(0, 89, 255);
+    transition: all 0.5s;
+}
+.fa-instagram{
+    color: rgb(255, 0, 119);
+    transition: all 0.5s;
+}
+.fa-youtube-play{
+    color: red;
+    transition: all 0.5s;
+}
+.fa-pinterest-p{
+    color: rgb(19, 168, 5);
+    transition: all 0.5s;
+}
+.fa-twitter{
+    color: rgb(0, 191, 255);
+    transition: all 0.5s;
+}
+.iframe:hover{
+    box-shadow:0 0 50px 0px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+
+}
+.dropdown{
+    display: none;
+}
+.wedd2:hover .dropdown{
+    display: inline-block;
+}
+.bounce{
+    animation: bouncing 0.5s ease 0s infinite alternate both;
+    background: #009688;
+    border-radius: 60%;
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    padding: 6em 2em 1.1em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: top;
+    margin-top: 100px;
+}
+
+@keyframes bouncing{
+    0% {
+        bottom: 0;
+        box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+    }
+    100% {
+        bottom: 50px;
+        box-shadow: 0 50px 50px rgb(0, 0, 0, 0.1);
+    }
+}
+.copyright{
+    background-color: #009688;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.eventgallery{
+    background-color: #009688;
+    color: white;
+    width: 200px;
+    height: 25px;
+    border-radius: 7px;
+    border: 0px solid black;
+}
+.uprr:hover{
+    color: #009688;
+    background-color: #fff;
+}
+.cs:hover{
+    color: black;
+}
+#manubtn{
+    width: 50px;
+    height: 50px;
+    background: rgba(151, 177, 226, 0.781);
+    text-align: center;
+    position:fixed;
+    right: 30px;
+    top: 40px;
+    border-radius: 3px;
+    z-index: 8;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#manubtn img{
+    width: 20px;
+    margin-top: 15px;
+}
+.fa-facebook:hover{
+    color: #009688;
+}
+.fa-instagram:hover{
+    color: #009688;
+}
+.fa-pinterest-p:hover{
+    color: #009688;
+}
+.fa-twitter:hover{
+    color: #009688;
+}
+.fa-youtube-play:hover{
+    color: #009688;
+}
+@media  screen and (max-width:1054px) {
+    #manubtn{
+        right: 0px;
+
+    }
+}
+.eventgallery:hover{
+    background-color: #58b4ab;
+}

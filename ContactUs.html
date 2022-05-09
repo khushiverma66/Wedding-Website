@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reach Us</title>
+    <link rel="icon" href="Media/events1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+.form{
+  border: 4px;
+  background-color: rgba(138, 134, 134, 0.1);
+  margin: 4px;
+  width: 100%;
+  font-size: 80px;
+  border-radius: 7px;
+  box-shadow: inset 10px 10px 5px rgba(124, 121, 121, 0.3);
+  height: 500px ;
+  margin-left: 30px;
+}
+.flexbox{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 50px;
+    height: 500px;
+}
+.c{
+    margin-right: 20px;
+}
+body{
+    background: linear-gradient(rgba(243, 238, 238, 0.656), rgba(248, 248, 248, 0.656) 
+    ),url(Media/patterns.jpg);
+}
+.t{
+  box-align: center;
+  width: 200px;
+  margin-left: 100px;
+  box-shadow: 10px 10px 5px solid black;
+}
+.t:hover{
+  color: black;
+  cursor: pointer;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+#banner{
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(144, 176, 235, 0.7) 
+),url(Media/planners3.jpg);
+
+background-size: 1600px;
+
+height: 100vh;
+position: sticky;
+}
+#sidenav{
+width: 250px;
+height: 100vh;
+position:fixed;
+right: -250px;
+top: 0;
+z-index: 2;
+background-color: rgba(151, 177, 226, 0.781);
+transition: 0.5s;
+}
+nav ul li {
+list-style: none;
+margin: 50px 20px ;
+}
+nav ul li a{
+text-decoration: none;
+color: #fff;
+transition: 0.5s;
+}
+nav ul li a:hover{
+text-decoration: underline;
+color: pink;
+}
+.c13{
+  display: flex;
+  background-color:rgb(233, 233, 233);
+}
+.last{
+  color: black;
+  text-decoration: none;
+
+}
+.last:hover{
+  text-decoration: underline;
+}
+.copyright{
+  background-color: #009688;
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.change{
+  box-shadow: 10px 10px 8px black;
+  cursor: pointer;
+}
+.c13{
+    display: flex;
+    background-color:rgb(233, 233, 233);
+}
+.last{
+    color: black;
+    text-decoration: none;
+
+}
+.last:hover{
+    text-decoration: underline;
+}
+.copyright{
+    background-color: #009688;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.row{
+    display: flex;
+
+}
+.container{
+    display: flex;
+    flex-direction:column ;
+}
+.box1{
+    margin-left: 200px;
+    width: 500px;
+    height: 100px;
+    background-color: #11c0b4;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: width 0.5s, height 0.5s,margin-left 0.5s;
+}
+.box1:hover{
+    width: 520px;
+    height: 120px;   
+    margin-left: 190px;
+    border: 1px solid #11c0b4;
+}
+.box2{
+    margin-left: 200px;
+    width: 500px;
+    height: 120px;
+    background-color: #11c0b4;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: width 0.5s, height 0.5s,margin-left 0.5s;
+}
+.box2:hover{
+    width: 520px;
+    height: 140px;   
+    margin-left: 190px;
+    border: 1px solid #11c0b4;
+}
+.box3{
+    margin-left: 200px;
+    width: 500px;
+    height: 150px;
+    background-color: #11c0b4;
+    margin-bottom: 5px;
+    cursor: pointer; 
+    transition: width 0.5s, height 0.5s,margin-left 0.5s;  
+}
+.box3:hover{
+    width: 520px;
+    height: 170px;   
+    margin-left: 190px;
+    border: 1px solid #11c0b4;
+
+}
+.row2{
+    width: 600px;
+    height: 900px;
+    flex-direction: row;
+    color: #777777;
+    background-color:rgb(226, 225, 225);
+    border: 1px solid black;
+    margin-left: 50px;
+    font-family: "Open Sans", sans-serif;
+
+}
+.form1{
+    margin: 20px 20px 20px 20px;   
+    }
+.form1 .name{
+    width: 500px;
+    height: 36px;
+}
+.event{
+    padding-left: 20px;
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+.form2{
+    margin-left: 20px;
+}
+.name2{
+    width: 500px;
+    height: 36px;
+
+}.area{
+    margin: 20px;
+}
+.button{
+    margin: 20px;
+}
+.button .btn{
+    background-color: #11c0b4;
+    color: white;
+    cursor: pointer;
+    width: 550px;
+    height: 36px;
+    font-size: 16px;
+
+}
+.button .btn:hover{
+    border: 2px solid black;
+    
+}
+#manubtn{
+    width: 50px;
+    height: 50px;
+    background: rgba(151, 177, 226, 0.781);
+    text-align: center;
+    position:fixed;
+    right: 30px;
+    top: 40px;
+    border-radius: 3px;
+    z-index: 8;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#manubtn img{
+    width: 20px;
+    margin-top: 15px;
+}
+.phonenumber{
+    background: rgba(151, 177, 226, 0.781);
+    width: 140px;
+    height: 81x;
+    border-radius: 10px;
+    position:fixed;
+    top: 48px;
+    left: 35px;
+    padding: 3px;
+    color: white;
+    z-index: 8;
+}
+.phonenumber:hover{
+    color:black;
+    cursor: pointer;
+}
+.hh{
+    font-size: 16px;
+}
+.fa-facebook:hover{
+    color: #009688;
+}
+.fa-instagram:hover{
+    color: #009688;
+}
+.fa-pinterest-p:hover{
+    color: #009688;
+}
+.fa-twitter:hover{
+    color: #009688;
+}
+.fa-youtube-play:hover{
+    color: #009688;
+}
+@media  screen and (max-width:1054px) {
+    #manubtn{
+        right: 0px;
+
+    }
+}
+    </style>
+</head>
+<body>
+    <marquee behavior="" direction="right" style="background-color:rgba(151, 177, 226, 0.981); position: fixed; z-index: 8;">"Over 20 years of Destination wedding & Event planning experience, more than 500 happy couples around the world, 600+overseas events and still counting" </marquee>  <br>
+    <section id="banner">
+        <div class="ph">
+            <div style="background: rgba(151, 177, 226, 0.781); border-radius: 50%; width: 30px; height: 30px; top: 46px; left: 5px; position: fixed;"><img src="Media/phonelogo.png" alt="" width="30px" height="30px"></div>
+        <div class="phonenumber">+91-8567234510</div>
+        <div style=" top: 667px; left: -30px; position: fixed; z-index: 8; cursor: pointer;;"><a href="#" ></a><img src="Media/chatwithus2.png" alt="" width="250px" height="95px"></div>
+        </div>
+<center><h1 style="font-size: 100px; color: white;font-family: 'The Nautigal', cursive;">Contact  Us</h1>
+  <div><a href="index.html" style="color: white; text-decoration: none;" class="hh">Home</a> <span style="color: white;" class="hh">|</span><a href="ContactUs.html" style="color: white; text-decoration: none;" class="hh"> Contact Us</a></div>
+</center>
+<div id="sidenav">
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutus(mainproject).html" target="__blank">ABOUT US</a></li>
+            <li><a href="Careerwithus.html">CAREER WITH US </a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="invites.html" class="wedd2">INVITES</a></li>
+            <li><a href="ContactUs.html">REACH US</a></li>
+        </ul>
+    </nav>
+</div>
+<div id="manubtn">
+    <img src="Media/menu.png" alt="not found" id="manu">
+</div>
+</section>
+<br>
+<section>
+    <h2 style="text-align: center; font-size: 28px;">CONTACT DETAILS</h2>
+    <br> <br>
+    <P style="color: grey; text-align: center; margin-top: -24px;">"We will glad to become a part of your unique wedding"</P> <br>  
+    
+    <div class="row">
+        <div class="container">
+            <div class="box1"> <img src="Media/messagelogo.png" alt="" width="40px" height="40px" style="margin-left: 30px; margin-top: 30px;"> <span style="color: white; font-size: 27px; font-weight: bold; margin-left: 10px; padding-bottom: 100px; ">infoWeddingBells.in</span> </div>
+            <div class="box2"> <img src="Media/phonelogo.png" alt="" width="40px" height="40px" style="margin-left: 30px; margin-top: 40px;"> <span style="color: white; margin-left: 10px; font-size: 27px;"><b>+91-8567234510,</b> <span ><b>+91-8571832981</b></span></span> </div>
+            <div class="box3" style="color: white; font-size: 27px; font-weight: bold;"><img src="Media/locationlogo.png" alt="" width="40px" height="40px" style="margin-left: 30px; margin-top: 30px; margin-right: 5px;"> Near D Block Market,Noida</div>
+    
+        </div>
+        <div class="row2">
+            <form action="">
+                <div class="form1"><input type="text" class="name" name="name" id="name" placeholder="Full Name" required></div>
+                <div class="form1"><input type="email" class="name" name="name" id="email" placeholder="E-mail address" required></div>
+                <div class="form1"><input type="number" class="name" name="num" id="num" placeholder="Phone No" required></div>
+                <p class="event">Event Type*</p>
+                <div class="form2">
+                    <select name="insta" id="insta" class="name2" required>
+                        <option value="wedding">Wedding</option>
+                        <option value="special Ocasssion">Special Ocasssion</option>
+                        <option value="Other Event">Other Event</option>
+                    </select>
+                </div>
+                <div class="form1"><input type="number" class="name" name="date" id="date" placeholder="Event Date*" required></div>
+                <div class="form1"><input type="text" class="name" name="venue" id="venue" placeholder="Event venue* " required></div>
+                <p class="event">How did you hear about us?</p>
+                <div class="form2">
+                    <select name="insta" id="insta" class="name2" required>
+                        <option value="gram">Instagram</option>
+                        <option value="Friend">A Friend</option>
+                        <option value="net">While surfing the net</option>
+                    </select>
+                </div>
+                <div class="area"><textarea name="" id="" cols="72" rows="15" placeholder="We love to create personal experiences.Tell us your Story!" required></textarea></div>
+                <div class="button"><button class="btn">Submit</button></div>
+            </form>
+        </div>
+    </div>
+</section>
+<br> <br> <br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.9282177568257!2d77.34681111503558!3d28.601930182429893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce511eb13d7dd%3A0x30966d40cda320c9!2sD%20Block%20Park%201%2C%20Block%20D%2C%20Sector%2055%2C%20Noida%2C%20Uttar%20Pradesh%20201307!5e0!3m2!1sen!2sin!4v1639679350336!5m2!1sen!2sin" width="1520" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></center>
+          <hr>
+        <section class="contactus">
+            <div class="c13">
+                <div class="contactus1" style="margin-left: 300px;"> <h2>WEDDING BELLS AND EVENTS</h2> <br> Wedding Bells and Events Pvt Ltd has dynamic <br> team of vibrant personalities, a group of experienced <br> wedding designers and event organisers in Noida  and <br> Gurgaon  who comprise the knowledge and know-how <br> to provide you unforgettable moments through our <br> myriad of services that need to craft your alluring <br> event. </div>
+                <div class="contactus1" style="margin-left: 150px;"><h2>LINKS</h2> <br> <a href="index.html" class="last">Home</a> <br> <a href="aboutus(mainproject).html" class="last">About Us</a> <br> <a href="Careerwithus.html" class="last">Career With Us</a> <br> <a href="Blog.html" class="last">Blog</a> <br> <a href="ContactUs.html" class="last">Reach Us</a> <br> <a href="Gurgaon.html" class="last">Gurgaon</a> </div>
+                <div class="contactus1" style="margin-left: 150px;"><h2>Contact Us </h2><br>Sector 55 <br>Near D Block Market,Noida <br> <a href="#" class="last">Email : info@weddingbells.in</a><br> <br>
+                    <a href="#" style="color:blue; text-decoration: none;"><i class="fa fa-facebook" aria-hidden="true" style="transition: all 0.5s;"></i>&nbsp;</a>
+                    <a href="#" style="color:rgb(245, 34, 104);text-decoration: none;"><i class="fa fa-instagram" aria-hidden="true" style="transition: all 0.5s;"></i>&nbsp;</a>
+                    <a href="#" style="color:red; text-decoration: none;"><i class="fa fa-youtube-play" aria-hidden="true" style="transition: all 0.5s;"></i>&nbsp;</a>
+                    <a href="#" style="color: green; text-decoration: none;"><i class="fa fa-pinterest-p" aria-hidden="true" style="transition: all 0.5s;"></i>&nbsp;</a>
+                    <a href="#" style="color: rgb(68, 195, 245); text-decoration: none;"><i class="fa fa-twitter" aria-hidden="true" style="transition: all 0.5s;"></i></a>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <center><h1>MAP LOCATION</h1>
+            <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.9282177568257!2d77.34681111503558!3d28.601930182429893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce511eb13d7dd%3A0x30966d40cda320c9!2sD%20Block%20Park%201%2C%20Block%20D%2C%20Sector%2055%2C%20Noida%2C%20Uttar%20Pradesh%20201307!5e0!3m2!1sen!2sin!4v1639679350336!5m2!1sen!2sin" width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></center>
+        <br>
+        <div class="copyright">Copyright© Wedding Bells and Events 2018, All right reserved. | Privacy Policy</div>
+       </div>
+       <script>
+        var menubtn= document.getElementById("manubtn")
+        var sidenav= document.getElementById("sidenav")
+        var menu= document.getElementById("manu")
+
+        sidenav.style.right="-250px";
+
+        menubtn.onclick=function(){
+            if(sidenav.style.right=="-250px"){
+             sidenav.style.right="0";
+             menu.src="Media/close.png";
+            }
+            else{
+             sidenav.style.right="-250px";
+             menu.src="Media/menu.png";
+            }
+        }
+
+    </script>
+       
+        </body>
+        </html>
+ 
