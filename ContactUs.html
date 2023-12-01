@@ -287,7 +287,7 @@ color: pink;
     </style>
 </head>
 <body>
-    <marquee behavior="" direction="right" style="background-color:rgba(151, 177, 226, 0.981); position: fixed; z-index: 8;">"Over 20 years of Destination wedding & Event planning experience, more than 500 happy couples around the world, 600+overseas events and still counting" </marquee>  <br>
+    <marquee behavior="" direction="right" style="background-color:rgba(151, 177, 226, 0.981); position: fixed; z-index: 8; width: 100%;">"Over 20 years of Destination wedding & Event planning experience, more than 500 happy couples around the world, 600+overseas events and still counting" </marquee>  <br>
     <section id="banner">
         <div class="ph">
             <div style="background: rgba(151, 177, 226, 0.781); border-radius: 50%; width: 30px; height: 30px; top: 46px; left: 5px; position: fixed;"><img src="Media/phonelogo.png" alt="" width="30px" height="30px"></div>
@@ -327,7 +327,7 @@ color: pink;
     
         </div>
         <div class="row2">
-            <form action="">
+            <form action="http://localhost:4000/submit" method="POST">
                 <div class="form1"><input type="text" class="name" name="name" id="name" placeholder="Full Name" required></div>
                 <div class="form1"><input type="email" class="name" name="name" id="email" placeholder="E-mail address" required></div>
                 <div class="form1"><input type="number" class="name" name="num" id="num" placeholder="Phone No" required></div>
@@ -350,7 +350,7 @@ color: pink;
                     </select>
                 </div>
                 <div class="area"><textarea name="" id="" cols="72" rows="15" placeholder="We love to create personal experiences.Tell us your Story!" required></textarea></div>
-                <div class="button"><button class="btn">Submit</button></div>
+                <div class="button"><button class="btn" type="submit">Submit</button></div>
             </form>
         </div>
     </div>
